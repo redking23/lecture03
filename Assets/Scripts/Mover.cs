@@ -9,12 +9,12 @@ public class Mover : Modifier
 
     void OnEnable()
     {
-        // MessageSystem.OnModifyButtonClicked += Modify;
+         MessageSystem.OnModifyButtonClicked += Modify;
     }
 
     void OnDisable()
     {
-        // MessageSystem.OnModifyButtonClicked += Modify;
+         MessageSystem.OnModifyButtonClicked += Modify;
     }
 
     public override void Modify()

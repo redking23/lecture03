@@ -13,12 +13,12 @@ public class Controller : MonoBehaviour
     public void OnModifyButtonClicked()
     {
         //First approach
-        foreach (Modifier modifier in _modifiers)
-        {
-            modifier.Modify();
-        }
+//        foreach (Modifier modifier in _modifiers)
+ //       {
+//            modifier.Modify();
+ //       }
 
-        // Second approach
-        // MessageSystem.TriggerModifyButtonClicked();
+         //Second approach
+         MessageSystem.TriggerModifyButtonClicked();
     }
 }
